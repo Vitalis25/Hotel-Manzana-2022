@@ -10,6 +10,9 @@
 		0D1313BE288B25400012A9EE /* Manzana_Cuba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D1313BD288B25400012A9EE /* Manzana_Cuba.jpeg */; };
 		0D1313C0288B28DC0012A9EE /* ListOfGuestsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1313BF288B28DC0012A9EE /* ListOfGuestsTableViewController.swift */; };
 		0D1313C3288B32C60012A9EE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1313C2288B32C60012A9EE /* DataManager.swift */; };
+		0D1313C8288B6AFF0012A9EE /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1313C5288B6AFF0012A9EE /* Screenshot03.png */; };
+		0D1313C9288B6AFF0012A9EE /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1313C6288B6AFF0012A9EE /* Screenshot02.png */; };
+		0D1313CA288B6AFF0012A9EE /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1313C7288B6AFF0012A9EE /* Screenshot01.png */; };
 		0D9158A4288AC3520011BAB5 /* SelectRoomTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9158A3288AC3520011BAB5 /* SelectRoomTypeTableViewController.swift */; };
 		0D9158A7288ACE9D0011BAB5 /* SelectRoomTypeTableViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9158A6288ACE9D0011BAB5 /* SelectRoomTypeTableViewControllerProtocol.swift */; };
 		0DD8E17E2879B4C200EE5451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8E17D2879B4C200EE5451 /* AppDelegate.swift */; };
@@ -26,6 +29,9 @@
 		0D1313BD288B25400012A9EE /* Manzana_Cuba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Manzana_Cuba.jpeg; sourceTree = "<group>"; };
 		0D1313BF288B28DC0012A9EE /* ListOfGuestsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfGuestsTableViewController.swift; sourceTree = "<group>"; };
 		0D1313C2288B32C60012A9EE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0D1313C5288B6AFF0012A9EE /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		0D1313C6288B6AFF0012A9EE /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		0D1313C7288B6AFF0012A9EE /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		0D9158A3288AC3520011BAB5 /* SelectRoomTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomTypeTableViewController.swift; sourceTree = "<group>"; };
 		0D9158A6288ACE9D0011BAB5 /* SelectRoomTypeTableViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomTypeTableViewControllerProtocol.swift; sourceTree = "<group>"; };
 		0DD8E17A2879B4C200EE5451 /* Hotel Manzana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotel Manzana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +65,16 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		0D1313C4288B69820012A9EE /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0D1313C7288B6AFF0012A9EE /* Screenshot01.png */,
+				0D1313C6288B6AFF0012A9EE /* Screenshot02.png */,
+				0D1313C5288B6AFF0012A9EE /* Screenshot03.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		0D9158A5288ACCD80011BAB5 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +102,7 @@
 		0DD8E17C2879B4C200EE5451 /* Hotel Manzana */ = {
 			isa = PBXGroup;
 			children = (
+				0D1313C4288B69820012A9EE /* Screenshots */,
 				0D1313C1288B329A0012A9EE /* Manager */,
 				0DD8E1982879BB2B00EE5451 /* App */,
 				0DD8E1912879B54900EE5451 /* Model */,
@@ -197,7 +214,10 @@
 				0DD8E18A2879B4C300EE5451 /* LaunchScreen.storyboard in Resources */,
 				0D1313BE288B25400012A9EE /* Manzana_Cuba.jpeg in Resources */,
 				0DD8E1872879B4C300EE5451 /* Assets.xcassets in Resources */,
+				0D1313CA288B6AFF0012A9EE /* Screenshot01.png in Resources */,
+				0D1313C8288B6AFF0012A9EE /* Screenshot03.png in Resources */,
 				0DD8E1852879B4C200EE5451 /* Main.storyboard in Resources */,
+				0D1313C9288B6AFF0012A9EE /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
